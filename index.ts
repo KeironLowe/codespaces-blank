@@ -3,4 +3,4 @@
 /*eslint-env es6*/
 const a = 'b';
 a = 'c';
-// lowercase comment
+// lowercase comments
