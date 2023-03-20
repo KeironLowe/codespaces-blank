@@ -29,8 +29,8 @@ jobs:
           extensions: 'js,ts,tsx,html'
           annotations: true
 
-     - name: Commit changes
-       uses: stefanzweifel/git-auto-commit-action@v4
-       with:
-         commit_message: ESLint Fixes
-         skip_fetch: true
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: ESLint Fixes
+          skip_fetch: true
